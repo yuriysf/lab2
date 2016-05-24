@@ -1,42 +1,114 @@
-
+*{
+	box-sizing: border-box;
+}
 body {
 	background-color: #f9f9f9;
 	font-family: 'Open Sans', Arial, sans-serif;
 	font-size: 13px;
 }
-.main_container {
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.wrapper {
 	background-color: #ffffff;
 	width: 1060px;
-	margin: auto;
-	padding-bottom: 60px;
-}
-h1 {
+	margin: 0 auto;
+	padding: 50px 50px 50px 60px;
+	box-shadow: -5px 0 10px 1px #dbdbdb, 5px 0 10px 1px #dbdbdb;
+}	
+.wrapper h1 {
 	font-family: 'Molengo', Arial, sans-serif;
 	font-size: 52px;
-	padding: 44px 0px 34px 44px;
+	margin-bottom: 40px;
+	line-height: 40px;
 }	
 .menu {
 	background-color: #575757;
-	width: 966px;
-	margin: auto;
-	margin-bottom: 40px;
 }
 .menu li {
-	display: inline-block;
-	width: 96px;
-	margin-right: 46px;
+	float: left;
+	border-right: 1px solid transparent;
+	border-left: 1px solid transparent;
+	height: 40px;
+	margin-right: 35px;
 }
 .menu a {
 	font-size: 14px;
-	display: block;
-	text-decoration: none;
 	color: white;
-	padding: 13px 0px 13px 20px;
+	display: block;
+	padding: 15px 24px;;
 }
 .menu li:hover {
 	background-color: #474747;
+	border-right: 1px solid #c8c8c8;
+	border-left: 1px solid #c8c8c8;
+	transition: all 0.2s;
 }
-.page-container {
+
+
+/*submenu*/
+
+
+
+/* content */
+.main-wrapper {
+	margin: 40px 0 60px 0;
+}
+.left-menu {
+	float: left;
+	width: 24%;
+}
+.left-menu ul {
+	border: 1px solid #e1e1e1;
+}
+.left-menu li {
+    border-bottom: 1px solid #e1e1e1; 
+    height: 40px;
+    padding: 15px 24px;
+}
+.left-menu li:last-child {
+	border-bottom: none;
+}
+.left-menu li:hover {
+	padding-left: 36px;
+	transition: all 0.3s;
+	background-color: #f9f9f9;
+}
+.content {
+	float: right;
+	width: 70%;
+}
+.content img {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+}
+.content p {
+	margin-top: 40px;
+	padding: 0 25px;
+}
+.footer {
+	background-color: #e1e1e1;
+}
+.footer li {
+	float: left;
+	padding: 15px 24px;
+	margin-right: 45px;
+}
+.footer li:last-child {
+	float: right;
+	padding: 15px 25px 15px 0;
+}
+.footer a:hover {
+	text-decoration: underline;
+}
+/*.page-container {
 	width: 966px;
 	margin: auto;
 }
@@ -85,9 +157,7 @@ h1 {
 .footer a {
 	padding-left: 24px;
 	padding-right: 65px;
-	padding-top: 15px;
 	text-decoration: none;
-	display: inline-block;
 }
 .footer a:hover {
 	text-decoration: underline;
