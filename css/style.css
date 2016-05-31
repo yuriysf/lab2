@@ -17,14 +17,14 @@ a {
 }
 .wrapper {
 	background-color: #ffffff;
-	width: 1060px;
+	width: 78.5%;
 	margin: 0 auto;
-	padding: 50px 50px 50px 60px;
+	padding: 50px 48px 10px 45px;
 	box-shadow: -5px 0 10px 1px #dbdbdb, 5px 0 10px 1px #dbdbdb;
 }	
 .wrapper h1 {
 	font-family: 'Molengo', Arial, sans-serif;
-	font-size: 52px;
+	font-size: 54px;
 	margin-bottom: 40px;
 	line-height: 40px;
 }	
@@ -36,13 +36,13 @@ a {
 	border-right: 1px solid transparent;
 	border-left: 1px solid transparent;
 	height: 40px;
-	margin-right: 35px;
+	margin-right: 39px;
 }
 .menu a {
 	font-size: 14px;
 	color: white;
 	display: block;
-	padding: 15px 24px;;
+	padding: 11px 24px;;
 }
 .menu li:hover {
 	background-color: #474747;
@@ -50,8 +50,6 @@ a {
 	border-left: 1px solid #c8c8c8;
 	transition: all 0.2s;
 }
-
-
 /*submenu*/
 
 
@@ -62,7 +60,7 @@ a {
 }
 .left-menu {
 	float: left;
-	width: 24%;
+	width: 25%;
 }
 .left-menu ul {
 	border: 1px solid #e1e1e1;
@@ -70,7 +68,7 @@ a {
 .left-menu li {
     border-bottom: 1px solid #e1e1e1; 
     height: 40px;
-    padding: 15px 24px;
+    padding: 13px 22px;
 }
 .left-menu li:last-child {
 	border-bottom: none;
@@ -90,75 +88,23 @@ a {
 	width: 100%;
 }
 .content p {
-	margin-top: 40px;
+	margin-top: 34px;
+  line-height: 21px;
 	padding: 0 25px;
 }
+/*footer*/
 .footer {
 	background-color: #e1e1e1;
 }
 .footer li {
 	float: left;
-	padding: 15px 24px;
-	margin-right: 45px;
+	padding: 13px 33px;
+	margin-right: 26px;
 }
 .footer li:last-child {
 	float: right;
-	padding: 15px 25px 15px 0;
+	padding: 13px 0px;
 }
 .footer a:hover {
 	text-decoration: underline;
 }
-/*.page-container {
-	width: 966px;
-	margin: auto;
-}
-.left-container {
-	width: 240px;
-	margin-right: 45px;
-	float: left;
-}
-.left-container li {
-	border: 1px solid #807e7e;
-	border-bottom: none;
-}
-.left-container li:last-child {
-	border-bottom: 1px solid #807e7e;
-}
-.left-container li:hover {
-	background-color: #f9f9f9;
-	padding-left: 12px;
-}
-.left-container a{
-	display: block;
-	text-decoration: none;
-	color: #807e7e;
-	padding: 15px;
-}
-.right-container {
-	width: 676px;
-	float: right;
-}
-.right-container p {
-	padding: 30px 22px 0px 22px;
-	line-height: 20px;
-}
-.clearfix {
-	height: 0;
-	clear: both;
-}
-.footer {
-	background-color: #f9f9f9;
-	width: 966px;
-	height: 40px;
-	margin: auto;
-	margin-top: 55px;
-	margin-bottom: 60px; 
-}
-.footer a {
-	padding-left: 24px;
-	padding-right: 65px;
-	text-decoration: none;
-}
-.footer a:hover {
-	text-decoration: underline;
-}	
